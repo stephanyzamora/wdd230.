@@ -8,8 +8,8 @@ header, footer, main, nav {
 	margin: 0 auto;
 }
 header, footer {
-	background-color: #153e5c;
-	color: #ffffff;
+	background-color: #ffc404;
+	color: #000000;
 	padding: 15px;
 	display: flex;
 	align-items: center;
