@@ -139,7 +139,7 @@ footer p a:hover {
 }
 /* navigation area - top */
 nav {
-	background-color: #fca904;	
+	background-color: #021f5f;	
 	text-align: center;
 }
 nav ul {
@@ -156,15 +156,15 @@ nav ul li {
 nav ul li a {
 	padding: 15px;
 	font-size: 16px;
-	color: #000000;
+	color: #f5f5f5;
 }
 nav a:hover {
-	color: #ffffff;
+	color: #ffc505;
 }
 .active {
-	background-color: #cacfd4;
+	background-color: #b7e2ff;
 	height: 23px;
 }
 .active a:hover {
-	color: #000000;
+	color: #0f0f0f;
 }
