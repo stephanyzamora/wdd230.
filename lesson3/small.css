@@ -8,7 +8,7 @@ header, footer, main, nav {
 	margin: 0 auto;
 }
 header, footer {
-	background-color: #ffc404;
+	background-color: #ffb004;
 	color: #000000;
 	padding: 15px;
 	display: flex;
@@ -139,7 +139,7 @@ footer p a:hover {
 }
 /* navigation area - top */
 nav {
-	background-color: #021f5f;	
+	background-color: #0546d3;	
 	text-align: center;
 }
 nav ul {
