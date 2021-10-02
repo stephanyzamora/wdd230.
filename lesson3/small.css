@@ -2,6 +2,8 @@
 **/
 body {
 	font-family: 'Roboto', Arial, sans-serif;
+	background-color:#bec6c9;
+
 }
 header, footer, main, nav {
 	max-width: 80em;
