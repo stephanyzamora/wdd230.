@@ -47,26 +47,26 @@ a {
 	text-decoration: none;
 }
 footer p a {
-	color: #ffffff;
+	color: #ffc400;
 }
 footer p a:hover {
-	color:  #87aeb4;
+	color:  #98f7f76e;
 }
 /* background colors */
 .backgroundWhite {
-	background-color: #ffffff;
+	background-color: #cce6ff;
 }
 .backgroundYellow {
-	background-color: #f2be54;
+	background-color: #044b85;
 }
 .backgroundGrey {
 	background-color: #cacfd4;
 }
 .backgroundDarkBlue {
-	background-color: #153e5c;
+	background-color: #664808;
 }
 .backgroundBlack {
-	background-color: #000000;
+	background-color: #0c0c0c;
 }
 /* text colors */
 .textWhite {
@@ -139,7 +139,7 @@ footer p a:hover {
 }
 /* navigation area - top */
 nav {
-	background-color: #f2be54;	
+	background-color: #fca904;	
 	text-align: center;
 }
 nav ul {
