@@ -8,7 +8,7 @@ header, footer, main, nav {
 	margin: 0 auto;
 }
 header, footer {
-	background-color: #ffb004;
+	background-color: #ffc400;
 	color: #000000;
 	padding: 15px;
 	display: flex;
@@ -73,10 +73,10 @@ footer p a:hover {
 	color: #ffffff;
 }
 .textYellow {
-	color: #f2be54;
+	color: #a4abad;
 }
 .textGrey {
-	color: #116ecc;
+	color: #0c3692;
 }
 .textDarkBlue {
 	color: #4af51f;
