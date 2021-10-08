@@ -17,7 +17,7 @@ header {
 	justify-content: center;
 }
 header img {
-	width: 80px;
+	width: 100px;
 	height:	auto;
 }
 .headings {
@@ -31,7 +31,7 @@ header img {
 	margin: 0;
 }
 .moto {
-	color: #f2be54;
+	color: #3096bb;
 	font-style: italic;
 	font-size: 12px;
 }
