@@ -113,14 +113,7 @@ a {
 	text-decoration: none;
 }
 /* footer */
-#footerBar {
-	background-color: #153e5c;
-	color: #ffffff;
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	text-align: center;
-}
+
 footer p {
 	font-size: 14px;
 }
