@@ -13,7 +13,7 @@ header, nav, footer, #prestonPancakes {
 }
 /* heading */
 header {
-	background-color: #bec6c9;
+	background-color: #ffffff;
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -23,6 +23,7 @@ header {
 	display: flex;
 	flex-direction: column;
 	margin-left: 30px;
+	padding: 15px;
 }
 .headings h1 {
 	font-size: 20px;
