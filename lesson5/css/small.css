@@ -80,12 +80,7 @@ main {
 	flex-direction: column;
 	padding: 15px;
 }
-main div {
-	border: dotted 1px #011836;
-	background-color: #bec6c9;
-	margin: 15px;
-	padding: 15px;
-}
+
 /* footer */
 footer {
 	background-color: #fdd226;
@@ -112,6 +107,7 @@ h3 {
 }
 p, label {
 	font-size: 12px;
+	color:#011836;
 }
 a {
 	text-decoration: none;
@@ -141,8 +137,7 @@ footer p {
 	top: 15px;
 	left: 15px;
 	padding: 10px;
-	background: #cacfd4;
-	border: 2px solid #000000;
+	background: #3096bb;
 	box-shadow: 0 0 20px #000000;
 	display: none;
 	grid-template-columns: auto auto;
@@ -178,7 +173,7 @@ footer p {
 .forcastDay {
 	margin: 0;
 	color: #ffffff;
-	background: #153e5c;
+	background: #3096bb;
 	text-align: center;
 	width: 100%;
 	padding-top: 10px; 
@@ -196,11 +191,12 @@ footer p {
 }	
 /* article area */
 #articleArea {
-	border: 2px solid #000000;
-	background: #cacfd4;
+	background: #fdd226;
 	margin-top: 10px;
 	padding: 15px;
 	overflow: auto;
+	box-shadow: 0 0 20px #000000;
+
 }
 .articleImg {
 	margin: 0;
@@ -219,7 +215,7 @@ footer p {
 #contactArea {
 	display: grid;
 	grid-template-columns: 1fr 1fr;	
-	background-color: #f2be54;
+	background-color: #3096bb;
 	padding: 15px;
 	grid-gap: 75px;
 	align-items: center;
