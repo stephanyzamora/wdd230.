@@ -1,1 +1,45 @@
-
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="This is an assignment for the Progressive Loading of Images in week 7 in WDD 230.">
+    <title>WDD 230 - Week 7: Activity: Progressive Loading of Images</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/small.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/large.css">
+</head>
+<body>
+    <header>
+        <h1>Progressive Loading Images</h1>
+    </header>
+    <main>
+        <picture>
+            <img src="images/imageplaceholder.jpg" data-src="images/image1.jpg" alt="lake blue">
+        </picture>
+        <picture>
+            <img src="images/imageplaceholder.jpg" data-src="images/image2.jpg" alt="Cliff">
+        </picture>
+        <picture>
+            <img src="images/imageplaceholder.jpg" data-src="images/image3.jpg" alt="lake magic">
+        </picture>
+        <picture>
+            <img src="images/imageplaceholder.jpg" data-src="images/image4.jpg" alt="house in the mountains">
+        </picture>
+        <picture>
+            <img src="images/imageplaceholder.jpg" data-src="images/image5.jpg" alt="flowers white in the mountains">
+        </picture>
+        <picture>
+            <img src="images/imageplaceholder.jpg" data-src="images/image6.jpg" alt="Autumn in the forest">
+        </picture>
+    </main>
+    <footer>
+        <p><a href="../">Assignment Portal</a> </p> | Stephany Zamora </p><br>
+        <p class="updatedDate">Last Updated:27/10/2021  Time: 21:50 pm <span id="dateOutput"></span></p>
+        </div>
+        <script src="js/lazy.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+        <script>WebFont.load({google: {families: ["Roboto"]}});</script>
+    </body>
+    </html>
