@@ -1,46 +1,31 @@
 body {
-	font-family: 'Roboto', Arial, sans-serif;
+    margin: 0 auto;
+    width: 100%;
 }
-main {
-	max-width: 80em;
-	margin: 0 auto;
-	padding: 10px;
-	display: flex;
-	flex-direction: column;
-	align-items: center;
+
+.images {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    margin: 0 auto;
 }
-/* typography */
-h1 {
-	font-size: 20px;
-	color: #ffffff;
-}
-/* heading */
-header, footer {
-	background-color: #3096bb;
-	display: flex;
-	align-items: center;
-	justify-content: center;
-}
+
 picture {
-	max-width: 300px;
-	height: auto;
+    grid-column: inherit;
+    display: flex;
+    margin: 1rem auto;
 }
-img {
-	width: 100%;
-	height:	auto;
-	filter: blur(0em);
-	transition: filter 0.5s;
-}
+
 img[data-src] {
-	filter: blur(0.2em);
+    filter: blur(0.8em);
 }
-a {
-	text-decoration: none;
+
+img {
+    filter: blur(0em);
+    transition: filter 1.5s;
 }
-footer p a {
-	color: rgba(255, 255, 255, 1);
-}
-footer p a:hover {
-	color:  #fdd226;
+
+h1 {
+    text-align: center;
 }
 
