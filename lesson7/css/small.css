@@ -22,10 +22,10 @@ img[data-src] {
 
 img {
     filter: blur(0em);
-    transition: filter 1.5s;
+    transition:filter 1.5s;
 }
 
 h1 {
-    text-align: center;
+    text-align:center;
 }
 
