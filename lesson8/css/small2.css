@@ -272,14 +272,11 @@ form label {
 .slider {
 	display: block;
 	margin-top: 2px;
-	border: solid .5px #000000;
 	border-radius: 10px;
 	color: #000000;
 	box-sizing: border-box;
 	width: 100%;
-	-webkit-appearance: none;  
-	appearance: none;
-	height: 25px; 
+	height: 10px; 
 	background: rgba(21, 62, 92, 0.2); 
 	opacity: 0.8; 
 }
