@@ -41,16 +41,9 @@ h2 {
 .cards img { 
     margin: 0 auto;
     padding: 1rem;
-    width: 200px;
-    height: 310px;
+    width: 90%;
 }
 
-img {
-    display: block;
-    width: 250px;
-    height: 270px;
-    padding-bottom: 20px;
-}
 footer {
     max-width: 100%;
     background-color: rgb(255, 107, 81);
