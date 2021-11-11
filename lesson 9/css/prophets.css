@@ -41,7 +41,8 @@ h2 {
 .cards img { 
     margin: 0 auto;
     padding: 1rem;
-    width: 90%;
+    width: 200px;
+    height: 310px;
 }
 
 img {
