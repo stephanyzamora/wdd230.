@@ -1,1 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Uchen&display=swap');
+body {
+    max-width: 1400px;
+    margin: 0 auto;
+    font-family: 'Uchen', serif;
+}
 
+h1 {
+    text-align: center;
+    font-size: 24pt;
+}
+
+p {
+    text-align: center;
+    font-size: 15pt;
+    padding-right: .5rem;
+    padding-left: .5rem;
+}
+
+h2 {
+    font-size: 20pt;
+    text-align: center;
+}
+.cards {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 1rem;
+    max-width: 98%;
+    margin: 0 auto;
+    margin-bottom: 5px;
+    padding: 1rem;
+}
+
+.cards section {
+    background-color: rgb(243, 39, 83);
+    color: rgb(255, 255, 255);
+    max-width: 100%;
+    border: 1px solid rgb(245, 122, 149);
+}
+
+.cards img { 
+    margin: 0 auto;
+    padding: 1rem;
+    width: 90%;
+}
+
+footer {
+    max-width: 100%;
+    background-color: rgb(243, 39, 83);
+    color: white;
+    font-size: 18px;
+    text-align: center;
+    padding: 1rem;
+}
+
+/* ---------Medium view CSS---------- */
+@media only screen and (min-width: 35em){
+
+    h1 {
+        font-size: 32pt;
+    }
+
+    .cards{
+        grid-template-columns: 1fr 1fr;
+    }
+
+    section:hover {
+        box-shadow: 0 0 50px #333;
+    }
+    
+}
+
+/* -------Large view CSS---------------- */
+@media only screen and (min-width: 64em){
+
+    .cards {
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+}
