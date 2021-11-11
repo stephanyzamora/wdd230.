@@ -32,10 +32,10 @@ h2 {
 }
 
 .cards section {
-    background-color: rgb(243, 39, 83);
+    background-color: rgb(255, 107, 81);
     color: rgb(255, 255, 255);
     max-width: 100%;
-    border: 1px solid rgb(245, 122, 149);
+    border: 3px solid rgb(235, 49, 16);
 }
 
 .cards img { 
@@ -46,7 +46,7 @@ h2 {
 
 footer {
     max-width: 100%;
-    background-color: rgb(243, 39, 83);
+    background-color: rgb(255, 107, 81);
     color: white;
     font-size: 18px;
     text-align: center;
@@ -65,7 +65,7 @@ footer {
     }
 
     section:hover {
-        box-shadow: 0 0 50px #333;
+        box-shadow: 0 0 20px #333;
     }
     
 }
