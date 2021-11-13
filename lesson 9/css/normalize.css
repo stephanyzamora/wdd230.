@@ -145,10 +145,10 @@
    * Remove the border on images inside links in IE 10.
    */
   
- img {
-  width: 50%;
+ img{
+    width:540px;
+    height: auto;
 }
-  
   /* Forms
      ========================================================================== */
   
