@@ -1,1 +1,97 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="This is an assignment page for the weather site home page of week 11 in WDD 230.">
+    <link rel="shortcut icon" href="images/favicon.ico">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/small.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/large.css">
+    <title>WDD 230 - Week 9: Home page</title>
 
+</head>
+<body>
+    <header>
+        <img src="images/WEATHER-SITIE.gif" alt="Logo for the weather site">
+        <section class="headings">
+            <h1>Splendid &bull; WEATHER &bull;</h1>
+        <div class="moto">The weather is splendid now enjoy it!</div>
+        </section>        
+</header>  
+    <nav>
+        <ul class="navigation">
+            <li><a class="ham" href="#">☰ Menu</a></li>
+            <li class="active"><a href="index.html">Home</a></li>
+            <li><a href="preston-10.html">Preston</a></li>
+            <li><a href="soda-springs.html">Soda Springs</a></li>
+            <li><a href="fish-haven.html">Fish Haven</a></li>
+            <li><a href="stormcenter.html">Storm Center</a></li>
+            <li><a href="gallery-7">Gallery</a></li>
+        </ul>
+    </nav>
+    <main>
+        <div id="heroArea">
+            <img src="images/portada.png" alt="image of weather change in idaho" sizes="100vw"
+            srcset="images/heropichomesm.jpg 400w,
+                    images/heropichomemed.jpg 800w,
+                    images/heropichome.jpg 1280w">
+        </div>
+        <div id="allTownInfo">
+            <article>
+                <figure class="townInfoImg">
+                    <img src="images/home.jpg" alt="park road in preston" loading="lazy">
+                </figure>
+                <div class="homeDataPreston"></div>
+            </article>
+            <article>
+                <figure class="townInfoImg">
+                    <img src="images/oasis.jpg" alt="park road in soda springs" loading="lazy">
+                </figure>
+                <div class="homeDataSodaSprings"></div>
+            </article>
+            <article>
+                <figure class="townInfoImg">
+                    <img src="images/fish.jpg" alt="park road in fish haven" loading="lazy">
+                </figure>
+                <div class="homeDataFishhaven"></div>
+            </article>
+        </div>
+        <div id="articleArea">    
+            <h3>Soda springs mountain resort</h3>
+            <figure class="articleImg">
+                <img src="images/resort.jpg" alt="picture our shy subject of article!" loading="lazy">
+            </figure>
+            <p>As the longest-running ski resort in California, Soda Springs Mountain Resort is the best place to explore the magic of winter in Tahoe. Secluded in picturesque pine trees and conveniently located directly off Interstate 80, the welcoming resort spirit and laid-back atmosphere are perfect for families new to the snow.</p>
+                <p>In fact, Soda Springs offers Mountain Adventure access to Planet Kids, a dedicated snow play area designed for children under the age of 8. Although, big kids can play too! Planet Kids is best described as a snow playground with tube carousels, snow tube lanes, ski / snowboard specific learning areas, climbing snow volcanoes, and more. </p>
+                <p>If you're looking to speed things up a bit, Tube Town is Tahoe's premier snow tubing area with up to 20 slopes and 400 feet. surface elevation.</p>
+            <p><i><a href="https://www.skisodasprings.com/"> By Ski Soda Springs</a></i></p>
+        </div>
+    </main>
+    <div id="contactArea">
+        <img id="mapImg" src="images/mapa.gif" alt="image of preston map">
+        <section id="contactTextArea">
+            <h3>Contact Information</h3>
+            <p>210 Fillmore Street West<br>P.O. BOX 657<br>Preston, MN 55965</p>
+            <p>☎ (507)765-2153<br>✉ theweathersite@tws.com</p>
+            <div>
+                <a href="https://facebook.com/" target="_blank"><img class="socialIcon" src="images/facebook.png" alt="facebook icon">&ensp;</a>
+                <a href="https://pintrest.com/" target="_blank"><img class="socialIcon" src="images/pinterest.png" alt="pintrest icon">&ensp;</a>
+                <a href="https://twitter.com/" target="_blank"><img class="socialIcon" src="images/twitter.png" alt="twitter icon"></a>
+                <a href="https://web.whatsapp.com/" target="_blank"><img class="socialIcon" src="images/what.png" alt="twitter icon"></a>
+            </div>
+        </section>
+    </div>  
+    <footer>
+        <p>Data online:</p><a href="https://openweathermap.org/">Open Weather Map</a>
+        <p>&copy;Splendid &bull; WEATHER &bull; | Attributions  | Stephany Zamora </p><br>
+        <p class="updatedDate">Last Updated:16/10/2021  Time: 0:06 am <span id="dateOutput"></span></p>
+        </div>
+    </footer> 
+    <script src="js/home.js"></script>
+    <script src="js/all.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    <script>WebFont.load({google: {families: ["Roboto"]}});</script>
+</body>
+</html>
