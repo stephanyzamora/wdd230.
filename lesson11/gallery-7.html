@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="This is an assignment page for the Gallery site page of week 7 in WDD 230.">
+    <title>WDD 230 - Week 7:The gallery site</title>
+    <link rel="shortcut icon" href="images/favicon.ico">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/small.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/large.css">
+</head>
+<body>
+    <header>
+        <img src="images/WEATHER-SITIE.gif" alt="Logo for the weather site">
+        <section class="headings">
+            <h1>Splendid &bull; WEATHER &bull;</h1>
+        <div class="moto">The weather is splendid now enjoy it!</div>
+        </section>        
+</header>  
+    <nav>
+        <ul class="navigation">
+            <li><a class="ham" href="#">☰ Menu</a></li>
+            <li><a href="./">Home</a></li>
+            <li><a href="">Preston</a></li>
+            <li><a href="#">Soda Springs</a></li>
+            <li><a href="#">Fish Haven</a></li>
+            <li><a href="#">Storm Center</a></li>
+            <li class="active"><a href="gallery-7.html">Gallery</a></li>
+        </ul>
+    </nav>
+    <main>
+        <h2>Weather Gallery</h2>
+        <div id="weatherGallery">
+            <div class="galleryBlock">
+               <picture>
+                    <img src="images/placeholder.jpg" data-src="images/image1.jpg" alt="snow covered trees"> 
+                </picture>
+                <p>Thunderstorm in preston with strong lightning</p>             
+            </div>
+            <div class="galleryBlock">
+                <picture>
+                     <img src="images/placeholder.jpg" data-src="images/image2.jpg" alt="lightning striking mountain"> 
+                 </picture>
+                 <p>Snow in the noth of Fish Haven</p>             
+             </div>
+             <div class="galleryBlock">
+                <picture>
+                     <img src="images/placeholder.jpg" data-src="images/image3.jpg" alt="tornado and lighnight over town"> 
+                 </picture>
+                 <p>Tornadoes in Preston</p>             
+             </div>
+             <div class="galleryBlock">
+                <picture>
+                     <img src="images/placeholder.jpg" data-src="images/image4.jpg" alt="blue sky with white clouds"> 
+                 </picture>
+                 <p>Sunshine in Soda Springs</p>             
+             </div>
+             <div class="galleryBlock">
+                <picture>
+                     <img src="images/placeholder.jpg" data-src="images/image5.jpg" alt="double raindbow over forest and lake"> 
+                 </picture>
+                 <p>Rain in Preston</p>             
+             </div>
+             <div class="galleryBlock">
+                <picture>
+                     <img src="images/placeholder.jpg" data-src="images/image6.jpg" alt="snow covered moutains"> 
+                 </picture>
+                 <p>Double rainbow east of Soda Springs</p>             
+             </div>
+             <div class="galleryBlock">
+                <picture>
+                     <img src="images/placeholder.jpg" data-src="images/image7.jpg" alt="full arcing rainbow over field"> 
+                 </picture>
+                 <p>Heavy storms in Soda springs</p>             
+             </div>
+             <div class="galleryBlock">
+                <picture>
+                     <img src="images/placeholder.jpg" data-src="images/image8.jpg" alt="cloudcover over grassy hills"> 
+                 </picture>
+                 <p>Heavy snowfall in the woods of the Preston Mountains</p>             
+             </div>
+             <div class="galleryBlock">
+                <picture>
+                     <img src="images/placeholder.jpg" data-src="images/image9.jpg" alt="sunshine streaming through light cloud coverage"> 
+                 </picture>
+                 <p>Sunshine in Fish Haven</p>             
+             </div>
+        </div>
+    </main>
+    <footer>
+        <p>&copy;Splendid &bull; WEATHER &bull; | Attributions  | Stephany Zamora </p><br>
+        <p class="updatedDate">Last Updated:29/10/2021  Time: 22:10 pm <span id="dateOutput"></span></p>
+        </div>
+    </footer> 
+    <script src="js/preston.js"></script>
+    <script src="js/gallery.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    <script>WebFont.load({google: {families: ["Roboto"]}});</script>
+</body>
+</html>
