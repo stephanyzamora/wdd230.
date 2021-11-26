@@ -330,16 +330,15 @@ form label {
 }
 .slider {
 	display: block;
-	margin-top: 2px;
-	border: solid .5px #000000;
-	border-radius: 10px;
+	margin-top: 20px;
+	border-radius: 20px;
 	color: #000000;
 	box-sizing: border-box;
-	width: 100%;
+	width: 60%;
 	-webkit-appearance: none;  
 	appearance: none;
 	height: 25px; 
-	background: rgba(21, 62, 92, 0.2); 
+	background:#fdd226; 
 	opacity: 0.8; 
 }
 .slider:focus {
@@ -352,9 +351,9 @@ form label {
 	-webkit-appearance: none; 
 	appearance: none;
 	width: 15px; 
-	height: 25px; 
-	border-radius: 10px;
-	background: #153e5c; 
+	height: 10px; 
+	border-radius: 20px;
+	background: #3096bb; 
 }
 .slider::-moz-range-thumb {
 	width: 15px; 
