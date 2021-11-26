@@ -8,40 +8,63 @@ main {
 	padding: 10px;
 }
 header, nav, footer, #prestonPancakes {
-	margin: 2 auto;
-
+	margin: 0 auto;
+}
+/* typography */
+h1 {
+	font-size: 20px;
+	color: #153e5c;
+}
+h2 {
+	font-size: 16px;
+	color: #153e5c;
+}
+h3, legend {
+	font-size: 14px;
+	color: #153e5c;
+}
+p, label {
+	font-size: 12px;
+}
+a {
+	text-decoration: none;
+}
+footer a {
+	color: #f2be54;
+}
+footer a:hover {
+	color: #ffffff;
 }
 /* heading */
 header {
-	background-color: #ffffff;
+	background-color: #153e5c;
 	display: flex;
 	align-items: center;
 	justify-content: center;
 }
 header img {
-	width: 120px;
+	width: 80px;
 	height:	auto;
+	margin-top:4px;
 }
-
 .headings {
 	display: flex;
 	flex-direction: column;
-	margin-left: 30px;
-	padding: 15px;
+	margin-left: 10px;
 }
 .headings h1 {
 	font-size: 20px;
-	color: #011836;
-	margin: 3;
+	color: #ffffff;
+	margin: 0;
 }
 .moto {
-	color: #3096bb;
+	color: #f2be54;
 	font-style: italic;
 	font-size: 12px;
 }
 /*header navigation */
 nav {
-	background-color: #fdd226;
+	background-color: #f2be54;
 }
 .navigation {
 	max-width: 80em;
@@ -69,55 +92,23 @@ nav {
 	display: block;
 }
 nav a:hover {
-	background-color: #3096bb;
-	color: #1d1d1b;
+	background-color: #153e5c;
+	color: #ffffff;
 }
 .active {
 	background-color: #cacfd4;
-	border-left: 4px solid #011836;
-	border-right: 4px solid #011836;
+	border-left: 4px solid #153e5c;
+	border-right: 4px solid #153e5c;
 }
-/* temp main divs */
-main {
-	display: flex;
-	flex-direction: column;
-	padding: 15px;
-}
-
 /* footer */
-footer {
-	background-color: #fdd226;
+#footerBar {
+	background-color: #153e5c;
+	color: #ffffff;
 	display: flex;
 	align-items: center;
 	justify-content: center;
 	text-align: center;
 }
-footer p {
-	font-size: 14px;
-}
-/* typography */
-h1 {
-	font-size: 20px;
-	color: #3096bb;
-}
-h2 {
-	font-size: 14px;
-	color: #011836;
-}
-h3 {
-	font-size: 16px;
-	color: #1d1d1b;
-	text-align: center;
-}
-p, label {
-	font-size: 12px;
-	color:#011836;
-}
-a {
-	text-decoration: none;
-}
-/* footer */
-
 footer p {
 	font-size: 14px;
 }
@@ -133,19 +124,21 @@ footer p {
 	position: absolute;
 	top: 15px;
 	left: 15px;
-	padding: 20px;
-	background: #3096bb;
+	padding: 10px;
+	background: #cacfd4;
+	border: 2px solid #000000;
+	box-shadow: 0 0 20px #000000;
 	display: none;
 	grid-template-columns: auto auto;
 }
 #weatherSummary h3 {
 	grid-column: 1 / 3;	
 	margin: 0;
-	color: #fffff9;
 }
 #weatherSummary p, #weatherSummary label {
 	margin: 0;
 	padding: 2px;
+	text-transform: capitalize;
 }
 #weatherSummary label {
 	text-align: right;
@@ -154,11 +147,18 @@ footer p {
 /* five day forcast area */
 #forcastArea {
 	display: none;
+	align-content: center;
+	border: 2px solid #000000;
+	background: #cacfd4;
+	margin: 15px auto;
+	padding: 15px;
+	overflow: auto;
 }
 #forcastFive {
 	display: grid;
 	grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
 	border: 1px solid #000000;
+	box-shadow: 0 0 20px #000000;
 }
 .forcastCol {
 	padding: 0;
@@ -166,12 +166,12 @@ footer p {
 	flex-direction: column;
 	align-items: center;
 	border: 1px solid #000000;
-	background-color:#8cd3ec;
+	background-color: #cacfd4;
 }
 .forcastDay {
 	margin: 0;
 	color: #ffffff;
-	background: #3096bb;
+	background: #153e5c;
 	text-align: center;
 	width: 100%;
 	padding-top: 10px; 
@@ -180,8 +180,8 @@ footer p {
 }
 .forcastCol img {
 	padding-top: 10px;
-	width: 70%;
-	height:	auto;
+	max-width: 90%;
+	height:	auto; 
 }
 .forcastTemp {
 	color: #153e5c;
@@ -189,19 +189,15 @@ footer p {
 }	
 /* article area */
 #articleArea {
-	background: #fdd226;
+	border: 2px solid #000000;
+	background: #cacfd4;
 	margin-top: 10px;
 	padding: 15px;
 	overflow: auto;
-	box-shadow: 0 0 20px #000000;
-
 }
 .articleImg {
 	margin: 0;
-	width: 80%;
-}
-#articleArea h3 {
-	margin-top: 10px;
+	width: 100%;
 }
 #articleArea img {
 	width: 100%;
@@ -209,11 +205,42 @@ footer p {
 	display: block;
 	box-shadow: 0 0 20px #000000;
 }	
+/* event area */
+.eventBorder {
+	max-width: 400px;
+	align-content: center;
+	border: 2px solid #000000;
+	background: #f2be54;
+	margin: 15px auto;
+	padding: 15px;
+	overflow: auto;
+}
+.eventArea {
+	border: 2px solid #000000;
+	background: #ffffff;
+	margin: 10px;
+	padding: 15px;
+	overflow: auto;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+.eventArea h3 {
+	margin-bottom: 0;
+}
+.eventArea li {
+	list-style-type: square;
+}
+.eventArea ul {
+	padding-left: 10px;
+	padding-right: 10px;
+}
 /* contact area */
 #contactArea {
 	display: grid;
 	grid-template-columns: 1fr 1fr;	
-	background-color: #3096bb;
+	background-color: #f2be54;
 	padding: 15px;
 	grid-gap: 75px;
 	align-items: center;
@@ -246,13 +273,12 @@ footer p {
 /* preston page alert */
 #prestonPancakes {
 	display: none;
-	background: #3096bb;
+	background: #f2be54;
 	padding: 15px;
 	text-align: center;
 }
 #prestonPancakes p {
 	margin: 0;
-	color: #ffffff
 }
 /* weather gallery page */
 #weatherGallery {
