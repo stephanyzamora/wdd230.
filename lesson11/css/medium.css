@@ -13,10 +13,9 @@
         font-size: 16px;
     }
     /* heading */
-   header img {
-	width: 120px;
-	height:	auto;
-}
+    header img {
+        width: 128px;
+    }
     .headings h1 {
         font-size: 40px;
     }
@@ -54,8 +53,8 @@
     }
     /* article area */
     .articleImg {
-        margin: 0 0 15px 15px;
-        width: 50%;
+        margin: 0 0 5px 15px;
+        width: 40%;
         float: right;
     }    
     /* contact area */
@@ -84,7 +83,7 @@
         max-width: 100%;
         max-height: 1008px;
         border-radius: 10px;
-        box-shadow: 0 0 20px #00000;
+        box-shadow: 0 0 20px #000000;
     }
     /* home page - town info section */
     #allTownInfo article {
