@@ -22,7 +22,7 @@ h2 {
 }
 h3, legend {
 	font-size: 14px;
-	color: #ffffff;
+	color: #3096bb
 }
 p, label {
 	font-size: 12px;
@@ -135,10 +135,9 @@ footer p {
 	position: absolute;
 	top: 15px;
 	left: 15px;
-	padding: 10px;
-	background: #cacfd4;
-	border: 2px solid #000000;
-	box-shadow: 0 0 20px #000000;
+	padding: 20px;
+	background: #3096bb;
+	box-shadow: 0 0 5px #000000;
 	display: none;
 	grid-template-columns: auto auto;
 }
@@ -159,8 +158,6 @@ footer p {
 #forcastArea {
 	display: none;
 	align-content: center;
-	border: 2px solid #000000;
-	background: #cacfd4;
 	margin: 15px auto;
 	padding: 15px;
 	overflow: auto;
@@ -177,12 +174,12 @@ footer p {
 	flex-direction: column;
 	align-items: center;
 	border: 1px solid #000000;
-	background-color: #cacfd4;
+	background-color: #85cee9;
 }
 .forcastDay {
 	margin: 0;
 	color: #ffffff;
-	background: #153e5c;
+	background: #3096bb;
 	text-align: center;
 	width: 100%;
 	padding-top: 10px; 
@@ -197,10 +194,16 @@ footer p {
 .forcastTemp {
 	color: #153e5c;
 	font-weight: bold;
+}
+/*map */
+iframe {
+    display: flex;
+    margin: 30px auto;
+    padding: 0;
 }	
 /* article area */
 #articleArea {
-	border: 2px solid #011836;
+	border: 2px solid #bec6c9;
 	background: #fdd226;
 	margin-top: 10px;
 	padding: 15px;
@@ -289,9 +292,10 @@ footer p {
 /* preston page alert */
 #prestonPancakes {
 	display: none;
-	background: #f2be54;
+	background: #3096bb;
 	padding: 15px;
 	text-align: center;
+	color:#ffffff;
 }
 #prestonPancakes p {
 	margin: 0;
