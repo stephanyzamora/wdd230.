@@ -121,6 +121,7 @@ footer {
 }
 footer p {
 	font-size: 14px;
+	color: #ffffff;
 }
 /* hero area */
 #heroArea {
@@ -208,6 +209,9 @@ footer p {
 .articleImg {
 	margin: 0;
 	width: 100%;
+}
+#articleArea h3 {
+	color: #011836;
 }
 #articleArea img {
 	width: 85%;
