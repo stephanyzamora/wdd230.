@@ -13,7 +13,7 @@ header, nav, footer, #prestonPancakes {
 /* typography */
 h1 {
 	font-size: 20px;
-	color: #153e5c;
+	color: #3096bb;
 }
 h2 {
 	font-size: 16px;
@@ -21,7 +21,7 @@ h2 {
 }
 h3, legend {
 	font-size: 14px;
-	color: #153e5c;
+	color: #3096bb;
 }
 p, label {
 	font-size: 12px;
@@ -30,14 +30,14 @@ a {
 	text-decoration: none;
 }
 footer a {
-	color: #f2be54;
+	color: #fdd226;
 }
 footer a:hover {
 	color: #ffffff;
 }
 /* heading */
 header {
-	background-color: #153e5c;
+	background-color: #ffffff;
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -50,26 +50,27 @@ header img {
 .headings {
 	display: flex;
 	flex-direction: column;
-	margin-left: 10px;
+	margin-left: 30px;
+	padding: 15px;
 }
 .headings h1 {
 	font-size: 20px;
-	color: #ffffff;
+	color: #3096bb;
 	margin: 0;
 }
 .moto {
-	color: #f2be54;
+	color: #fdd226;
 	font-style: italic;
 	font-size: 12px;
 }
 /*header navigation */
 nav {
-	background-color: #f2be54;
+	background-color: #fdd226;
 }
 .navigation {
 	max-width: 80em;
 	list-style: none;
-	background-color: #f2be54;
+	background-color: #fdd226;
 	margin: 0 auto;
 	padding: 0;
 	text-align: center;
@@ -92,7 +93,7 @@ nav {
 	display: block;
 }
 nav a:hover {
-	background-color: #153e5c;
+	background-color: #3096bb;
 	color: #ffffff;
 }
 .active {
@@ -101,6 +102,13 @@ nav a:hover {
 	border-right: 4px solid #153e5c;
 }
 /* footer */
+footer {
+	background-color: #011836;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+}
 #footerBar {
 	background-color: #153e5c;
 	color: #ffffff;
@@ -189,8 +197,8 @@ footer p {
 }	
 /* article area */
 #articleArea {
-	border: 2px solid #000000;
-	background: #cacfd4;
+	border: 2px solid #011836;
+	background: #fdd226;
 	margin-top: 10px;
 	padding: 15px;
 	overflow: auto;
@@ -200,7 +208,7 @@ footer p {
 	width: 100%;
 }
 #articleArea img {
-	width: 100%;
+	width: 85%;
 	height:	auto;
 	display: block;
 	box-shadow: 0 0 20px #000000;
@@ -240,9 +248,9 @@ footer p {
 #contactArea {
 	display: grid;
 	grid-template-columns: 1fr 1fr;	
-	background-color: #f2be54;
+	background-color: #3096bb;
 	padding: 15px;
-	grid-gap: 75px;
+	grid-gap: 200px;
 	align-items: center;
 }
 #mapImg {
@@ -429,8 +437,6 @@ input[type=number] {
 	margin-top: 10px;
 }
 #allTownInfo {
-	border: 2px solid #000000;
-	background: #f2be54;
 	margin-top: 10px;
 	padding: 15px;
 	display: flex;
@@ -443,7 +449,7 @@ input[type=number] {
 	margin: 10px;
 	padding: 35px;
 	border: 2px solid #000000;
-	background: #cacfd4;
+	background: #3096bb;
 }
 #allTownInfo img {
 	box-shadow: 0 0 20px #000000;
