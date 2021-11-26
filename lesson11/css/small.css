@@ -198,7 +198,7 @@ footer p {
 /*map */
 iframe {
     display: flex;
-    margin: 30px;
+    margin: 0 auto;
     padding: 0;
 }	
 /* article area */
@@ -261,13 +261,6 @@ iframe {
 	padding: 15px;
 	grid-gap: 200px;
 	align-items: center;
-}
-#mapImg {
-	display: none;
-	height:	auto;
-	justify-self: end;
-	width: 100%;
-	max-width: 488px;
 }
 #contactTextArea {
 	display: flex;
