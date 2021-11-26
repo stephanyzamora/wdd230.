@@ -7,8 +7,6 @@ fetch(requestURL)
   .then(function (jsonObject) {
     // console.table(jsonObject); // checking for response
     const towns = jsonObject['towns'];
-
-
         //creating preston inputs
         const preston = document.querySelector('.homeDataPreston');
         const prestonfilter = towns.filter(x => x.name == "Preston");
@@ -23,7 +21,6 @@ fetch(requestURL)
             town.append(p);
             preston.append(town);
         });
-
         //creating fish haven inputs
         const fishhaven = document.querySelector('.homeDataFishhaven');
         const fishhavenfilter = towns.filter(x => x.name == "Fish Haven");
@@ -38,8 +35,6 @@ fetch(requestURL)
             town.append(p);
             fishhaven.append(town);
         });
-
-
         //creating soda springs inputs
         const sodasprings = document.querySelector('.homeDataSodaSprings');
         const sodafilter = towns.filter(x => x.name == "Soda Springs");
