@@ -21,7 +21,7 @@ h2 {
 }
 h3, legend {
 	font-size: 14px;
-	color: #3096bb;
+	color: #ffffff;
 }
 p, label {
 	font-size: 12px;
@@ -46,6 +46,7 @@ header img {
 	width: 80px;
 	height:	auto;
 	margin-top:4px;
+	padding: 15px;
 }
 .headings {
 	display: flex;
@@ -400,19 +401,19 @@ input[type="submit"] {
 }
 /* change placeholder color*/
 ::-webkit-input-placeholder { /* Chrome/Opera/Safari */
-	color: #888888;
+	color: #3096bb;
   }
 ::-moz-placeholder { /* Firefox 19+ */
-	color: #888888;
+	color: #3096bb;
   }
 :-ms-input-placeholder { /* IE 10+ */
-	color: #888888;
+	color: #3096bb;
   }
 :-moz-placeholder { /* Firefox 18- */
-	color: #888888;
+	color: #3096bb;
   }
 .dateColor {
-    color: #888888;
+    color: #3096bb;
 }
 /* change the color of the storm date */
 .dateColor {
@@ -448,7 +449,7 @@ input[type=number] {
 	flex-direction: column;
 	margin: 10px;
 	padding: 35px;
-	border: 2px solid #000000;
+	border: 2px solid #bec6c9;
 	background: #3096bb;
 }
 #allTownInfo img {
