@@ -13,9 +13,10 @@
         font-size: 16px;
     }
     /* heading */
-    header img {
-        width: 200px;
-    }
+   header img {
+	width: 120px;
+	height:	auto;
+}
     .headings h1 {
         font-size: 40px;
     }
