@@ -201,7 +201,24 @@ iframe {
     display: flex;
     margin: 0 auto;
     padding: 0;
+}
+/*page thank*/
+#thankcard {
+	background-color: #3096bb;
+	margin-top: 20px;
+	padding: 20px;
+	overflow:auto;
+	text-align: center;
+	border: 5px solid #bec6c9;
+	border-radius: 10px;
+
+}
+#thankcard h1{
+	color: #ffffff;
 }	
+#thankcard h2 p{
+	color: #011836;
+}
 /* article area */
 #articleArea {
 	border: 2px solid #bec6c9;
