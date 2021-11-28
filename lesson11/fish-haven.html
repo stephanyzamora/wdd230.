@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="This is an assignment page for the Fish Haven site page of week 11 in WDD 230.">
+    <title>Fish Haven</title>
+    <link rel="shortcut icon" href="favicon.ico">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/small.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/large.css">
+</head>
+<body>
+    <header>
+        <img src="images/WEATHER-SITIE.gif" alt="Logo for the weather site">
+        <section class="headings">
+            <h1>Splendid &bull; WEATHER &bull;</h1>
+        <div class="moto">The weather is splendid now enjoy it!</div>
+        </section>    
+    </header>  
+    <nav>
+        <ul class="navigation">
+            <li><a class="ham" href="#">☰ Menu</a></li>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="preston-10.html">Preston</a></li>
+            <li class="active"><a href="soda-springs.html">Soda Springs</a></li>
+            <li><a href="fish-haven.html">Fish Haven</a></li>
+            <li><a href="stormcenter.html">Storm Center</a></li>
+            <li><a href="gallery-7">Gallery</a></li>
+        </ul>
+    </nav>
+    <main>
+        <h2>Fish Haven</h2>
+        <div id="heroArea">
+            <img src="images/haven.jpg" alt="image of the town of fish haven Idaho" sizes="100vw"
+            srcset="images/haven.jpg 400w,
+                    images/haven.jpg 800w,
+                    images/haven.jpg 1280w">
+            <section id="weatherSummary">
+                <h3>Weather Summary</h3>
+                <label>Currently:</label> <p><span id="desFish"></span></p>
+                <label>Temperature:</label> <p><span id="temperatureFish"></span>&deg;F</p>
+                <label>Wind Chill:</label><p><span id="windChill"></span></p>
+                <label>Humidity:</label> <p><span id="humidityFish"></span>%</p>
+                <label>Wind Speed:</label> <p><span id="windSpeedFish"></span> mph</p>
+            </section>
+        </div>
+        <div id="forcastArea">
+            <h3>Five Day Forecast</h3>
+            <div id="forcastFive">
+                <div class="forcastCol">
+                    <p class="forcastDay"><span id="dayWeek1"></span></p>
+                    <img id="icon1" src="images/cloud.png" alt="weather image">
+                    <p class="forcastTemp"><span id="forecast1"></span>&deg;F</p>
+                </div>
+                <div class="forcastCol">
+                    <p class="forcastDay"><span id="dayWeek2"></span></p>
+                    <img id="icon2" src="images/cloud.png" alt="weather image">
+                    <p class="forcastTemp"><span id="forecast2"></span>&deg;F</p>
+                </div>
+                <div class="forcastCol">
+                    <p class="forcastDay"><span id="dayWeek3"></span></p>
+                    <img id="icon3" src="images/cloud.png" alt="weather image">
+                    <p class="forcastTemp"><span id="forecast3"></span>&deg;F</p>
+                </div>
+                <div class="forcastCol">
+                    <p class="forcastDay"><span id="dayWeek4"></span></p>
+                    <img id="icon4" src="images/cloud.png" alt="weather image">
+                    <p class="forcastTemp"><span id="forecast4"></span>&deg;F</p>
+                </div>
+                <div class="forcastCol">
+                    <p class="forcastDay"><span id="dayWeek5"></span></p>
+                    <img id="icon5" src="images/cloud.png" alt="weather image">
+                    <p class="forcastTemp"><span id="forecast5"></span>&deg;F</p>
+                </div>
+            </div>
+        </div>
+        <div class="eventBorder">
+            <div class="eventArea"><h3>Upcoming Town Events</h3><span id="eventFish"></span></div>
+        </div>
+        <div id="articleArea">    
+            <h3>Bear lake</h3>
+            <figure class="articleImg">
+                <img src="images/lake.jpg" alt="picture our shy subject of article!" loading="lazy">
+            </figure>
+            <p>Bear Lake County is in the southeastern corner of Idaho with Wyoming to the east and Utah to the south. Bear Lake County is named for Bear Lake and contains 971 square miles of land and 78 square miles of water. The county seat is Paris. Bear Lake County was founded in 1893. A lot of the original settlers in Bear Lake County came in from Utah, and thought they were still in Utah. The federal survey of the state line wasn't complete until 1872 and that is what showed that most of these early Mormon settlements were, in fact, in Idaho Territory.</p>
+            <p><i>The view west across Bear Lake, from Bear Lake State Park</i></p>
+        </div>
+    </main>
+    <div id="contactArea">
+        <iframe loading="lazy" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d11852.958830505222!2d-111.4048680654729!3d42.03803991735501!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x875415e9bdab006f%3A0xc1864ed86dd2b0e4!2sFish%20Haven%2C%20Idaho%2083287%2C%20EE.%20UU.!5e0!3m2!1ses!2sec!4v1638075018579!5m2!1ses!2sec"
+        width="420 " height="300 " style="border:0; " allowfullscreen=" " loading="lazy "></iframe>
+        <section id="contactTextArea">
+            <h3>Contact Information</h3>
+            <p>30 N 1st E<br>Fish Haven, ID 83263</p>
+            <p>☎ 999.999.9999<br>✉ contact@stw.com</p>
+            <div>
+                <a href="https://facebook.com/" target="_blank"><img class="socialIcon" src="images/facebook.png" alt="facebook icon">&ensp;</a>
+                <a href="https://pintrest.com/" target="_blank"><img class="socialIcon" src="images/pinterest.png" alt="pintrest icon">&ensp;</a>
+                <a href="https://twitter.com/" target="_blank"><img class="socialIcon" src="images/twitter.png" alt="twitter icon"></a>
+                <a href="https://web.whatsapp.com/" target="_blank"><img class="socialIcon" src="images/what.png" alt="twitter icon"></a>
+            </div>
+        </section>
+    </div>  
+    <script src="js/all.js"></script>
+    <script src="js/forecastfish.js"></script>
+    <script src="js/weathersumfish.js"></script>
+    <script src="js/eventfish.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    <script>WebFont.load({google: {families: ["Roboto"]}});</script>
+</body>
+</html>
