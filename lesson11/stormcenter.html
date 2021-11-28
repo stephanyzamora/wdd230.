@@ -33,7 +33,7 @@
     <main>
         <h2>Storm Center</h2>
         <div id="stormCenterPage">
-            <form method="get" action="thanks.html">
+            <form name="storm-report" ide="from">
                 <fieldset>
                     <legend>Contact Information</legend>
                     <label class="standardLabel">Full Name<input type="text" name="fullname" pattern="[\sa-zA-Z]{5,}" placeholder="Lina Cortez" class="standardInput" required></label>
@@ -67,10 +67,11 @@
                     <label class="radioLabelLast"><input type="radio" name="personaldanger" value="no"> No</label>
                     <label class="standardLabel">Comments<textarea name="comment" placeholder="Add additional information or comments here" class="standardInput textArea"></textarea></label>
                 </fieldset>
-                <form action="thank-page.html">
-                    <input type="submit" value="Report My Storm">
+                <label class="label">
+                    <input id="submit" type="submit" name="storm-report" value="submit" formaction="./thank-page.html" formtarget="_blank">
+                </label>
             </form>
-        </div>
+            </div>
     </main>
     <footer>
         <div id="footerBar">
